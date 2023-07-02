@@ -1,0 +1,109 @@
+.loginCard {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 10px;
+	min-height: 160px;
+}
+
+input[type="text"] {
+	height: 20px;
+	padding: 5px 10px;
+	font-size: 14px;
+	border: 0;
+	background: none;
+}
+
+input:focus {
+	outline: none;
+}
+
+button[type="submit"] {
+	width: 100%;
+	background-color: #009db1;
+	border-color: #009db1;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: all 0.3s ease-in-out;
+}
+
+legend {
+	z-index: 99;
+	padding-bottom: 5px;
+	margin: 0px;
+	margin-left: 10px;
+	font-size: 14px;
+	border-radius: 10px;
+	background-color: #f2f2f2;
+}
+
+fieldset {
+	border: 1px solid #160303;
+	border-radius: 4px;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 10px;
+}
+
+fieldset:hover {
+	border-color: #009db1;
+	box-shadow: 0 0 2px #009db1;
+}
+
+.loginLabel {
+	font-size: 22px;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 10px;
+	margin-top: 20px;
+}
+
+.button-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	align-items: center;
+}
+
+.button-label {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #444;
+}
+
+button {
+	background-color: #122648;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 480px) {
+	input[type="text"],
+	button[type="submit"] {
+		width: 100%;
+	}
+}
